@@ -40,6 +40,7 @@ platform: Any CPU
 # build Configuration, i.e. Debug, Release, etc.
 configuration: Release
   
+
 build:
   parallel: true                  # enable MSBuild parallel builds
   project: src/StatDNS.sln        # path to Visual Studio solution or project
@@ -52,7 +53,8 @@ build:
  
 # scripts to run before build
 before_build:
- 
+  - nuget restore src\StatDNS.sln
+  
 # scripts to run after build
 after_build:
  
