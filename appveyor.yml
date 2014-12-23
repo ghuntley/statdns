@@ -57,6 +57,8 @@ before_build:
   
 # scripts to run after build
 after_build:
+  - powershell nuget\pack.ps1
+
  
 # to run your custom scripts instead of automatic MSBuild
 build_script:
