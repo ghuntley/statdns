@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatDNS", "StatDNS\StatDNS.csproj", "{F83FECEC-A7D9-4408-BD6C-D6384042805D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{409DF6FA-3624-40D0-9E66-1CEBBAA4E3DA}"
+	ProjectSection(SolutionItems) = preProject
+		..\appveyor.yml = ..\appveyor.yml
+		..\nuget\pack.ps1 = ..\nuget\pack.ps1
+		..\README.md = ..\README.md
+		..\nuget\StatDNS.nuspec = ..\nuget\StatDNS.nuspec
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatDNS.ConsoleApp", "StatDNS.ConsoleApp\StatDNS.ConsoleApp.csproj", "{80D7D5EF-F856-4A55-840B-0D07E7FD1718}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatDNS.Tests", "StatDNS.Tests\StatDNS.Tests.csproj", "{CC7109FE-53CA-438B-A4B1-BCFC5010AA90}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F83FECEC-A7D9-4408-BD6C-D6384042805D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F83FECEC-A7D9-4408-BD6C-D6384042805D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F83FECEC-A7D9-4408-BD6C-D6384042805D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F83FECEC-A7D9-4408-BD6C-D6384042805D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80D7D5EF-F856-4A55-840B-0D07E7FD1718}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80D7D5EF-F856-4A55-840B-0D07E7FD1718}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80D7D5EF-F856-4A55-840B-0D07E7FD1718}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80D7D5EF-F856-4A55-840B-0D07E7FD1718}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC7109FE-53CA-438B-A4B1-BCFC5010AA90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC7109FE-53CA-438B-A4B1-BCFC5010AA90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC7109FE-53CA-438B-A4B1-BCFC5010AA90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC7109FE-53CA-438B-A4B1-BCFC5010AA90}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

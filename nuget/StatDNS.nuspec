@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  For more info on this file format visit http://docs.nuget.org/docs/reference/nuspec-reference.
+-->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>StatDNS</id>
+    <version>$version$</version>
+    <owners>ghuntley</owners>
+    <authors>Geoffrey Huntley</authors>
+    <title>StatDNS</title>
+    <description>Perform DNS queries over HTTP, and to get reverse PTR records for both IPv4 and IPv6 addresses.</description>
+    <language>en-US</language>
+    <iconUrl>https://pbs.twimg.com/profile_images/2035723659/statdns-twitter_bigger.png</iconUrl>
+    <projectUrl>https://github.com/ghuntley/statdns</projectUrl>
+    <licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <tags>PCL DNS IPv4 IPv6 HTTP REST API REFIT</tags>
+    <dependencies>
+      <dependency id="Microsoft.Net.Http" version="2.0.0" />
+      <dependency id="Refit" version="2.0.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="..\src\StatDNS\bin\Release\StatDNS.dll" target="lib\portable-net45+win+wpa81+wp80+MonoAndroid10+MonoTouch10" />
+    <file src="..\src\StatDNS\*.cs" target="src" />
+  </files>
+</package>
