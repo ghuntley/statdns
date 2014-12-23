@@ -17,7 +17,7 @@
     <projectUrl>https://github.com/ghuntley/statdns</projectUrl>
     <licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <tags>PCL DNS IPv4 IPv6 HTTP REST API REFIT</tags>
+    <tags>PCL DNS IPv4 IPv6 HTTP REST API XAMARIN REFIT</tags>
     <dependencies>
       <dependency id="Microsoft.Net.Http" version="2.0.0" />
       <dependency id="Refit" version="2.0.0" />
