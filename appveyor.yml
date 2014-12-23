@@ -82,8 +82,6 @@ artifacts:
   - path: src\StatDNS\bin\$(configuration)
     name: StatDNS
  
-  - path: out\*.nupkg
- 
 #---------------------------------#
 #     deployment configuration    #
 #---------------------------------#

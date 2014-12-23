@@ -9,4 +9,4 @@ $content = $content -replace '\$version\$',$versionStr
 
 $content | Out-File $root\nuget\StatDNS.compiled.nuspec
 
-& $root\NuGet\NuGet.exe pack $root\nuget\StatDNS.compiled.nuspec
+& $root\NuGet\NuGet.exe pack $root\nuget\StatDNS.compiled.nuspec -Symbols
