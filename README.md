@@ -1,7 +1,7 @@
 ![](https://pbs.twimg.com/profile_images/2035723659/statdns-twitter_bigger.png)
 # StatDNS [![Build status](https://ci.appveyor.com/api/projects/status/y1duath77jaimeq1/branch/master?svg=true)](https://ci.appveyor.com/project/ghuntley/statdns/branch/master)
 
-StatDNS allows you to perform DNS queries over HTTP, and to get reverse PTR records for both IPv4 and IPv6 addresses. It can be useful in server-side environments where you cannot perform DNS queries locally such as Microsoft Azure where UDP traffic isn't routed.
+StatDNS allows you to perform DNS queries over HTTP, and to get reverse PTR records for both IPv4 and IPv6 addresses. It can be useful in client-side/mobile phone environments and server-side environments where you cannot perform DNS queries locally such as Microsoft Azure where UDP traffic isn't routed. 
 
 
 # Supported Platforms
