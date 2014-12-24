@@ -8,6 +8,8 @@ namespace StatDNS
     [JsonConverter(typeof (StringEnumConverter))]
     public enum StatDNSClass
     {
+        [EnumMember(Value = "ANY")] Any,
+
         [EnumMember(Value = "CS")] CSNET,
 
         [EnumMember(Value = "CH")] CHAOS,
