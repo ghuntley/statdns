@@ -17,7 +17,7 @@ namespace StatDNS.Tests
             Client = RestService.For<IStatDNSApi>(BaseApiUrl);
         }
 
-
+        [Test]
         public async void GetA()
         {
             var response = await Client.GetA(Domain);
